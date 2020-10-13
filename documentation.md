@@ -62,7 +62,7 @@ User data for accounts and possibly profiles has to be stored. Also the surveys 
 | Title                                                              | Date       | Publishing organization   |
 | -------------------------------------------------------------------|:----------:| ------------------------- |
 | [SimpleSurvey Blog](https://simplesurveyproject.wordpress.com/)    | 13.10.2020 | SimpleSurvey Team    |
-| [GitHub]https://github.com/SimpleSurveyProject)              | 13.10.2020 | SimpleSurvey Team    |
+| [GitHub]https://github.com/SimpleSurveyProject               | 13.10.2020 | SimpleSurvey Team    |
 
 
 ### 1.5 Overview
@@ -73,8 +73,6 @@ The following chapter provides an overview of this project with vision and Overa
 ### 2.1 Vision
 
 ### 2.2 Use Case Diagram
-
-![OUCD](./UseCaseDiagramCP.png)
 
 - Green: Planned till end of december
 - Orange: Planned till end of june
@@ -256,8 +254,3 @@ The Team Members are:
 - Patrick Braje
 - Dominik Seiler
 - Simon Fischer
-
-<!-- Picture-Link definitions: -->
-[OUCD]: ucd.simplesurvey.de "Use Case Diagram"
-
-
