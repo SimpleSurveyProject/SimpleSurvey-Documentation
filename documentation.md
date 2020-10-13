@@ -124,52 +124,32 @@ If we still have time:
 #### 3.1.1 Creating an account
 To identify all users we need an account system. This account system enables us to build important functions such as creating,editing and evaluating a survey.
 
-[Creating an account](./use_cases/UC1_Creating_an_account.md)
-
 #### 3.1.2 Logging in
 The app will provide the possibility to register and log in. This will also make the usability easier when a user wants to manage his surveys.
-
-[Logging in](./use_cases/UC3_Logging_in.md)
 
 #### 3.1.3 Logging out
 In case you share your phone, have multiple accounts or just want to be cautious about your privacy you should be able to manually log out.
 
-[Logging out](./use_cases/UC4_Logging_out.md)
-
 #### 3.1.4 Create survey
 tbd
-
-[Create survey](./use_cases/UC5_Create_survey.md)
 
 #### 3.1.5 Fill out survey
 tbd
 
-[Logout](./use_cases/UC6_Logout.md)
-
 #### 3.1.6 Edit survey
 tbd
-
-[ Edit survey](./use_cases/UC2_ Edit_survey.md)
 
 #### 3.1.7 Share Survey
 tbd
 
-[Share Survey](./use_cases/UC7_Share_Survey.md)
-
 #### 3.1.8 Evaluate Survey
 tbd
-
-[Evaluate_Survey](./use_cases/UC8_Evaluate_Survey.md)
 
 #### 3.1.9 Admin can manage users
 tbd
 
-[Admin can manage users](./use_cases/UC9_Admin_can_manage_users.md)
-
 #### 3.1.10 Admin can manage surveys
 tbd
-
-[Admin can manage surveys](./use_cases/UC10_Admin_can_manage_surveys.md)
 
 #### 3.1.11 Presenting yourself and checking out others
 With the possibility to log in there comes another functionality, the profile. Every user will have their own profile where they can write some informations about themselves. Because of the privacy policy in Europe, the user has the possibility to only write the information they want other people to see. Using the profile, users can also check out results of other surveys.
@@ -228,7 +208,7 @@ We have bought a domain for the web application and a Linux Server, where the ba
 ### 3.9 Interfaces
 
 #### 3.9.1 User Interfaces
-{{tbd}}
+tbd
 
 #### 3.9.2 Hardware Interfaces
 We use a Linux server in a data center.
