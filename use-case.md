@@ -1,20 +1,20 @@
-\&lt;Company Name\&gt;
+Company Name
 
-\&lt;Project Name\&gt;
+Project Name
 
-Use-Case Specification: \&lt;Use-Case Name\&gt;
+Use-Case Specification: Use-Case Name
 
-**Version \&lt;1.0\&gt;**
+**Version 1.0**
 
 _[Note: The following template is provided for use with the Rational Unified Process. Text enclosed in square brackets and displayed in blue italics (style=InfoBlue) is included to provide guidance to the author and should be deleted before publishing the document. A paragraph entered following this style will automatically be set to normal (style=Body Text).]_
 
-_[To customize automatic fields in Microsoft Word (which display a gray background when selected), select File\&gt;Properties and replace the Title, Subject and Company fields with the appropriate information for this document. After closing the dialog, automatic fields may be updated throughout the document by selecting Edit\&gt;Select All (or Ctrl-A) and pressing F9, or simply click on the field and press F9. This must be done separately for Headers and Footers. Alt-F9 will toggle between displaying the field names and the field contents. See Word help for more information on working with fields.]_
+_[To customize automatic fields in Microsoft Word (which display a gray background when selected), select FileProperties and replace the Title, Subject and Company fields with the appropriate information for this document. After closing the dialog, automatic fields may be updated throughout the document by selecting EditSelect All (or Ctrl-A) and pressing F9, or simply click on the field and press F9. This must be done separately for Headers and Footers. Alt-F9 will toggle between displaying the field names and the field contents. See Word help for more information on working with fields.]_
 
 **Revision History**
 
 | **Date** | **Version** | **Description** | **Author** |
 | --- | --- | --- | --- |
-| \&lt;dd/mmm/yy\&gt; | \&lt;x.x\&gt; | \&lt;details\&gt; | \&lt;name\&gt; |
+| dd/mmm/yy | x.x | details | name |
 |
  |
  |
@@ -43,27 +43,27 @@ _[To customize automatic fields in Microsoft Word (which display a gray backgrou
 
 2.2Alternative Flows 4
 
-2.2.1\&lt; First Alternative Flow \&gt; 4
+2.2.1 First Alternative Flow  4
 
-2.2.2\&lt; Second Alternative Flow \&gt; 5
+2.2.2 Second Alternative Flow  5
 
 3.Special Requirements 5
 
-3.1\&lt; First Special Requirement \&gt; 5
+3.1 First Special Requirement  5
 
 4.Preconditions 5
 
-4.1\&lt; Precondition One \&gt; 5
+4.1 Precondition One  5
 
 5.Postconditions 5
 
-5.1\&lt; Postcondition One \&gt; 5
+5.1 Postcondition One  5
 
 6.Extension Points 5
 
-6.1\&lt;Name of Extension Point\&gt; 5
+6.1Name of Extension Point 5
 
-Use-Case Specification: \&lt;Use-Case Name\&gt;
+Use-Case Specification: Use-Case Name
 
 _[The following template is provided for a Use-Case Specification, which contains the textual properties of the use case. This document is used with a requirements management tool, such as Rational RequisitePro, for specifying and marking the requirements within the use-case properties._
 
@@ -95,17 +95,17 @@ _A picture is sometimes worth a thousand words, though there is no substitute fo
 ## Alternative Flows
 
     1.
-### \&lt; First Alternative Flow \&gt;
+###  First Alternative Flow 
 
 _[More complex alternatives are described in a separate section, referred to in the **Basic Flow** subsection of **Flow of Events** section. Think of the **Alternative Flow** subsections like alternative behavior each alternative flow represents alternative behavior usually due to exceptions that occur in the main flow. They may be as long as necessary to describe the events associated with the alternative behavior. When an alternative flow ends, the events of the main flow of events are resumed unless otherwise stated.]_
 
       1.
-#### \&lt; An Alternative Subflow \&gt;
+####  An Alternative Subflow 
 
 _[Alternative flows may, in turn, be divided into subsections if it improves clarity.]_
 
     1.
-### \&lt; Second Alternative Flow \&gt;
+###  Second Alternative Flow 
 
 _[There may be, and most likely will be, a number of alternative flows in a use case. Keep each alternative flow separate to improve clarity. Using alternative flows improves the readability of the use case, as well as preventing use cases from being decomposed into hierarchies of use cases. Keep in mind that use cases are just textual descriptions, and their main purpose is to document the behavior of a system in a clear, concise, and understandable way.]_
 
@@ -115,7 +115,7 @@ _[There may be, and most likely will be, a number of alternative flows in a use 
 _[A special requirement is typically a nonfunctional requirement that is specific to a use case, but is not easily or naturally specified in the text of the use case&#39;s event flow. Examples of special requirements include legal and regulatory requirements, application standards, and quality attributes of the system to be built including usability, reliability, performance or supportability requirements. Additionally, other requirementssuch as operating systems and environments, compatibility requirements, and design constraintsshould be captured in this section.]_
 
   1.
-## \&lt; First Special Requirement \&gt;
+##  First Special Requirement 
 
 1.
 # Preconditions
@@ -123,20 +123,20 @@ _[A special requirement is typically a nonfunctional requirement that is specifi
 _[A precondition of a use case is the state of the system that must be present prior to a use case being performed.]_
 
   1.
-## \&lt; Precondition One \&gt;
+##  Precondition One 
 1.
 # Postconditions
 
 _[A postcondition of a use case is a list of possible states the system can be in immediately after a use case has finished.]_
 
   1.
-## \&lt; Postcondition One \&gt;
+##  Postcondition One 
 1.
 # Extension Points
 
 _[Extension points of the use case.]_
 
   1.
-## \&lt;Name of Extension Point\&gt;
+## Name of Extension Point
 
 _[Definition of the location of the extension point in the flow of events.]_
