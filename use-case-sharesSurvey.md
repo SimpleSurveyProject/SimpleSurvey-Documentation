@@ -2,15 +2,23 @@
 
 ## Brief Description
 
-A user shares a survey.
+A user shares a survey, which he has already created.
+
+## Screenshot
+
+![share](ressources/share.png)
 
 # Flow of Events
 
 ## Basic Flow
 
+- User clicks on the share button
+- User selects share option from the share menu
+- The user gets the link created by the backend
+
 ## Activity Diagram
 
-shorturl.at/dtxyQ
+If you want to take a look at our activity diagram then check out this link: shorturl.at/dtxyQ
 
 ## Alternative Flows
 
