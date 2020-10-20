@@ -7,7 +7,10 @@ A user clicks on the link to a survey and fills out the survey.
 # Flow of Events
 
 ## Basic Flow
-
+ - User clicks on the link to go to the survey
+ - User gets the questions and fills them in
+ - The answers are saved by the server
+ - When all questions have been answered the survey is finished
 ## Activity Diagram
 
 shorturl.at/awGJX
