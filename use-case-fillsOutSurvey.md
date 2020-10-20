@@ -1,32 +1,3 @@
-**Version 1.0**
-
-**Revision History**
-
-| **Date** | **Version** | **Description** | **Author** |
-| --- | --- | --- | --- |
-| dd/mmm/yy | x.x | details | name |
-|
- |
- |
- |
- |
-|
- |
- |
- |
- |
-|
- |
- |
- |
- |
-
-Use-Case Specification: Use-Case Name
-
-_[The following template is provided for a Use-Case Specification, which contains the textual properties of the use case. This document is used with a requirements management tool, such as Rational RequisitePro, for specifying and marking the requirements within the use-case properties._
-
-_The use-case diagrams can be developed in a visual modeling tool, such as Rational Rose. A use-case report, with all properties, may be generated with Rational SoDA. For more information, see the tool mentors in the Rational Unified Process.]_
-
 1.
 # Use-Case Name
 
