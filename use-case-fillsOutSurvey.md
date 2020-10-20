@@ -1,14 +1,4 @@
-Company Name
-
-Project Name
-
-Use-Case Specification: Use-Case Name
-
 **Version 1.0**
-
-_[Note: The following template is provided for use with the Rational Unified Process. Text enclosed in square brackets and displayed in blue italics (style=InfoBlue) is included to provide guidance to the author and should be deleted before publishing the document. A paragraph entered following this style will automatically be set to normal (style=Body Text).]_
-
-_[To customize automatic fields in Microsoft Word (which display a gray background when selected), select FileProperties and replace the Title, Subject and Company fields with the appropriate information for this document. After closing the dialog, automatic fields may be updated throughout the document by selecting EditSelect All (or Ctrl-A) and pressing F9, or simply click on the field and press F9. This must be done separately for Headers and Footers. Alt-F9 will toggle between displaying the field names and the field contents. See Word help for more information on working with fields.]_
 
 **Revision History**
 
@@ -30,38 +20,6 @@ _[To customize automatic fields in Microsoft Word (which display a gray backgrou
  |
  |
  |
-
-**Table of Contents**
-
-1.Use-Case Name 4
-
-1.1Brief Description 4
-
-2.Flow of Events 4
-
-2.1Basic Flow 4
-
-2.2Alternative Flows 4
-
-2.2.1 First Alternative Flow  4
-
-2.2.2 Second Alternative Flow  5
-
-3.Special Requirements 5
-
-3.1 First Special Requirement  5
-
-4.Preconditions 5
-
-4.1 Precondition One  5
-
-5.Postconditions 5
-
-5.1 Postcondition One  5
-
-6.Extension Points 5
-
-6.1Name of Extension Point 5
 
 Use-Case Specification: Use-Case Name
 
