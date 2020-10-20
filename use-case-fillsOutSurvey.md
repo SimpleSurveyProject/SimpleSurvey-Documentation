@@ -20,12 +20,10 @@ n/a
 
 n/a
 
-##  First Special Requirement 
-
 # Preconditions
 
  - The survey must have been created and the user has to know the link.
- - Sufficient user rights must be available.
+ - Sufficient user rights must be available (e.g. the user has to be logged in).
 
 # Postconditions
 
@@ -33,8 +31,4 @@ n/a
 
 # Extension Points
 
-_[Extension points of the use case.]_
-
-## Name of Extension Point
-
-_[Definition of the location of the extension point in the flow of events.]_
+n/a
