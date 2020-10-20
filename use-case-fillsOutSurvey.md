@@ -5,7 +5,7 @@
 A user clicks on the link to a survey and fills out the survey.
 
 ## Screenshot
-![fillout](ressources/fillout.jpg)
+![fillout](ressources/fillout.png)
 
 # Flow of Events
 
