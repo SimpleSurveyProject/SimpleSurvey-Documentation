@@ -13,7 +13,7 @@ A user clicks on the link to a survey and fills out the survey.
  - When all questions have been answered the survey is finished
 ## Activity Diagram
 
-shorturl.at/awGJX
+If you want to take a look at our activity diagram then chek out this link: shorturl.at/awGJX
 
 ## Alternative Flows
 
