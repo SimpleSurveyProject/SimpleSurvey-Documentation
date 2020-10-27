@@ -18,6 +18,10 @@ A user clicks on the link to a survey and fills out the survey.
 
 If you want to take a look at our activity diagram then check out this link: [CLICK HERE](http://shorturl.at/awGJX)
 
+## Cucumber
+
+Check your Cucumber-Test-Case here: [CLICK HERE](https://github.com/SimpleSurveyProject/SimpleSurvey-Cucumber/blob/main/Fill_out_survey.feature)
+
 ## Alternative Flows
 
 n/a
