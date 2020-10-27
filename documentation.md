@@ -78,6 +78,10 @@ http://ucd.simplesurvey.de/
 - Orange: Planned till end of june
 - White: Additional features
 
+#### 2.2.3 Use cases
+User fills out survey [CLICK HERE](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-case-fillsOutSurvey.md)
+User shares survey [CLICK HERE](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-case-sharesSurvey.md)
+
 ### 2.3 Technology Stack
 The technology we use is:
 
