@@ -20,6 +20,10 @@ A user shares a survey, which he has already created.
 
 If you want to take a look at our activity diagram then check out this link: [CLICK HERE](http://shorturl.at/dtxyQ)
 
+## Cucumber
+
+Check your Cucumber-Test-Case here: [CLICK HERE](https://github.com/SimpleSurveyProject/SimpleSurvey-Cucumber/blob/main/Share_survey.feature)
+
 ## Alternative Flows
 
 n/a
