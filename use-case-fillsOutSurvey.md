@@ -17,6 +17,7 @@ A user clicks on the link to a survey and fills out the survey.
 ## Activity Diagram
 
 If you want to take a look at our activity diagram then check out this link: [CLICK HERE](http://shorturl.at/awGJX)
+![filloutdiagram](https://screen.simonlabs.de/img.php?id=385XWBf)
 
 ## Cucumber
 
