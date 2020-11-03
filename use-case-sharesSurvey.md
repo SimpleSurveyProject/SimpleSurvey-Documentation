@@ -19,6 +19,7 @@ A user shares a survey, which he has already created.
 ## Activity Diagram
 
 If you want to take a look at our activity diagram then check out this link: [CLICK HERE](http://shorturl.at/dtxyQ)
+![sharediagram](https://screen.simonlabs.de/img.php?id=3kUsZn5)
 
 ## Cucumber
 
