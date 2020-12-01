@@ -21,7 +21,7 @@ If you want to take a look at our activity diagram then check out this picture:
 
 ## Cucumber
 
-Check your Cucumber-Test-Case here: [CLICK HERE](https://github.com/SimpleSurveyProject/SimpleSurvey-Cucumber/tree/main/test/features)
+Check your Cucumber-Test-Case here: [CLICK HERE](https://github.com/SimpleSurveyProject/SimpleSurvey-Cucumber/tree/main/test/features/fillout/case.feature)
 
 ## Alternative Flows
 
