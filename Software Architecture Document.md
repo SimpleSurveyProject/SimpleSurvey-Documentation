@@ -111,7 +111,7 @@ The logical view for our application follows the Spring Boot architecture and co
 
 ## 5.2 Architecturally Significant Design Packages
 
-BLUE = MODEL
+BLUE = MODEL  
 ORANGE = CONTROLLER
 
 ![architecture](ressources/architecture.png)
