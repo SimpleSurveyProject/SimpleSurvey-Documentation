@@ -73,37 +73,41 @@ The following chapter provides an overview of this project with vision and Overa
 ### 2.1 Vision
 
 ### 2.2 Use Case Diagram
-http://ucd.simplesurvey.de/
+![UCD]https://screen.simonlabs.de/img.php?id=2I0cisf
 - Green: Planned till end of december
 - Orange: Planned till end of june
 - White: Additional features
 
 #### 2.2.3 Use cases
-User fills out survey [CLICK HERE](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-case-fillsOutSurvey.md)
-User shares survey [CLICK HERE](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-case-sharesSurvey.md)
+User fills out survey [CLICK HERE](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-fillsOutSurvey.md)  
+User shares survey [CLICK HERE](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-sharesSurvey.md)  
+User creates survey [CLICK HERE](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-createSurvey.md)  
+User edits survey [CLICK HERE](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-editSurvey.md)  
+User evaluates survey [CLICK HERE](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-evaluateSurvey.md)  
 
 ### 2.3 Technology Stack
 The technology we use is:
 
 Backend:
 -Spring Boot
--MySQL Database
+-MySQL Database (MariaDB)
 
 Frontend:
 -Angular
 
 IDE:
 -Microsoft Visual Studio Code
+-Eclipse
 
 Project Management:
 -YouTrack
 -GitHub
 
 Deployment:
--tbd
+-Jenkins
 
 Testing:
--tbd
+-Cucumber (Selenium)
 
 ## 3. Specific Requirements
 
@@ -135,25 +139,25 @@ The app will provide the possibility to register and log in. This will also make
 In case you share your phone, have multiple accounts or just want to be cautious about your privacy you should be able to manually log out.
 
 #### 3.1.4 Create survey
-tbd
+Every logged in user is able to create new surveys, which he can also share and evaluate.
 
 #### 3.1.5 Fill out survey
-tbd
+Every logged in user is able to fill out exisiting surveys of other users. He needs to enter the unique ID of the survey he wants to answer.
 
 #### 3.1.6 Edit survey
-tbd
+The users are able to edit their own surveys.
 
 #### 3.1.7 Share Survey
-tbd
+The users are able to generate links for others to instantly access an exisiting survey.
 
 #### 3.1.8 Evaluate Survey
-tbd
+The user has a dashboard which allows him to not only see the answers of the survey, but also shows general information about the questions (most skipped question, overall participants...)
 
 #### 3.1.9 Admin can manage users
-tbd
+An admin is able to manage all users. He can also remove or edit users.
 
 #### 3.1.10 Admin can manage surveys
-tbd
+An admin is able to manage all surveys. He can also remove or edit surveys.
 
 #### 3.1.11 Presenting yourself and checking out others
 With the possibility to log in there comes another functionality, the profile. Every user will have their own profile where they can write some informations about themselves. Because of the privacy policy in Europe, the user has the possibility to only write the information they want other people to see. Using the profile, users can also check out results of other surveys.
@@ -207,7 +211,7 @@ The supported Platforms will be:
 The usage of the application should be as intuitive as possible so it won't need any further documentation. If the user needs some help we will implement a "Help"-Button which includes a FAQ and a formular to contact the development team.
 
 ### 3.8 Purchased Components
-We have bought a domain for the web application and a Linux Server, where the backend runs.
+We have bought a domain for the web application and a Linux Server, where the applications run.
 
 ### 3.9 Interfaces
 
