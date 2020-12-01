@@ -63,12 +63,18 @@ This document describes the way we write code and how we connect the components 
 
 ## 1.4 References
 
-[Blog](https://simplesurveyproject.wordpress.com/)
-[GitHub Repository](https://github.com/SimpleSurveyProject)
-[Use Case Diagram](https://screen.simonlabs.de/img.php?id=2I0cisf)
-[Fill out survey Use Case](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-case-fillsOutSurvey.md)
-[Share survey Use Case](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-case-sharesSurvey.md)
-[Database model](ressources/dbmodel.png)
+[Blog](https://simplesurveyproject.wordpress.com/)  
+[GitHub Repository](https://github.com/SimpleSurveyProject)  
+[MVC Diagram](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/ressources/MVC.png)  
+[Use Case Diagram](https://screen.simonlabs.de/img.php?id=2I0cisf)  
+[Fill out survey Use Case](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-fillsOutSurvey.md)  
+[Share survey Use Case](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-sharesSurvey.md)  
+[Create survey Use Case](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-createSurvey.md)  
+[Edit survey Use Case](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-editSurvey.md)  
+[Evaluate survey Use Case](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-evaluateSurvey.md)  
+[Architecture](ressources/architecture.png)  
+[Deployment](https://screen.simonlabs.de/img.php?id=2HVXfjn)  
+[Database model](ressources/dbmodel.png)  
 
 ## 1.5 Overview
 
@@ -77,7 +83,7 @@ This document contains the architectural representation, goals and constraints a
 # 2. Architectural Representation
 
 We are implementing according to the MVC pattern:
-![ucd](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/ressources/MVC.png)
+![mvc](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/ressources/MVC.png)
 
 # 3. Architectural Goals and Constraints
 
@@ -90,23 +96,25 @@ Our **backend** is realized with Spring Boot. Spring Boot is a Java framework th
 
 ## 4.1 Use-Case Realizations
 
-A few use cases can be found here:
-[Fill out survey](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-case-fillsOutSurvey.md)
-[Share survey](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-case-sharesSurvey.md)
+A few use cases can be found here:  
+![Fill out survey](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-fillsOutSurvey.md)  
+![Share survey](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-sharesSurvey.md)  
+![Create survey](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-createSurvey.md)  
+![Edit survey](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-editSurvey.md)  
+![Evaluate survey](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-evaluateSurvey.md)  
 
 # 5. Logical View
 
-_[This section describes the architecturally significant parts of the design model, such as its decomposition into subsystems and packages. And for each significant package, its decomposition into classes and class utilities. You should introduce architecturally significant classes and describe their responsibilities, as well as a few very important relationships, operations, and attributes.]_
-
 ## 5.1 Overview
 
-_[This subsection describes the overall decomposition of the design model in terms of its package hierarchy and layers.]_
+The logical view for our application follows the Spring Boot architecture and contains the controller and the model. The frontend contains only the view and services which connect to the backend.
 
 ## 5.2 Architecturally Significant Design Packages
 
-_[For each significant package, include a subsection with its name, its brief description, and a diagram with all significant classes and packages contained within the package._
+BLUE = MODEL
+ORANGE = CONTROLLER
 
-_For each significant class in the package, include its name, brief description, and, optionally, a description of some of its major responsibilities, operations, and attributes.]_
+![architecture](ressources/architecture.png)
 
 # 6. Process View
 
@@ -114,7 +122,7 @@ n/a
 
 # 7. Deployment View
 
-_[This section describes one or more physical network (hardware) configurations on which the software is deployed and run. It is a view of the Deployment Model. At a minimum for each configuration it should indicate the physical nodes (computers, CPUs) that execute the software and their interconnections (bus, LAN, point-to-point, and so on.) Also include a mapping of the processes of the **Process View** onto the physical nodes.]_
+![deployment](https://screen.simonlabs.de/img.php?id=2HVXfjn)
 
 # 8. Implementation View
 
