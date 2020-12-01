@@ -96,12 +96,8 @@ Our **backend** is realized with Spring Boot. Spring Boot is a Java framework th
 
 ## 4.1 Use-Case Realizations
 
-A few use cases can be found here:  
-![Fill out survey](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-fillsOutSurvey.md)  
-![Share survey](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-sharesSurvey.md)  
-![Create survey](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-createSurvey.md)  
-![Edit survey](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-editSurvey.md)  
-![Evaluate survey](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-evaluateSurvey.md)  
+Our  use cases can be found here:  
+https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/tree/main/use-cases
 
 # 5. Logical View
 
