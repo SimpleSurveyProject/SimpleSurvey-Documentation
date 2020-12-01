@@ -18,12 +18,12 @@ A user shares a survey, which he has already created.
 
 ## Activity Diagram
 
-If you want to take a look at our activity diagram then check out this link: [CLICK HERE](http://shorturl.at/dtxyQ)
+If you want to take a look at our activity diagram then check out this picture:
 ![sharediagram](https://screen.simonlabs.de/img.php?id=3kUsZn5)
 
 ## Cucumber
 
-Check your Cucumber-Test-Case here: [CLICK HERE](https://github.com/SimpleSurveyProject/SimpleSurvey-Cucumber/blob/main/Share_survey.feature)
+Check your Cucumber-Test-Case here: [CLICK HERE](https://github.com/SimpleSurveyProject/SimpleSurvey-Cucumber/tree/main/test/features)
 
 ## Alternative Flows
 

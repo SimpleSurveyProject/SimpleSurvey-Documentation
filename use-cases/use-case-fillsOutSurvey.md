@@ -16,12 +16,12 @@ A user clicks on the link to a survey and fills out the survey.
  - When all questions have been answered the survey is finished
 ## Activity Diagram
 
-If you want to take a look at our activity diagram then check out this link: [CLICK HERE](http://shorturl.at/awGJX)
+If you want to take a look at our activity diagram then check out this picture:
 ![filloutdiagram](https://screen.simonlabs.de/img.php?id=385XWBf)
 
 ## Cucumber
 
-Check your Cucumber-Test-Case here: [CLICK HERE](https://github.com/SimpleSurveyProject/SimpleSurvey-Cucumber/blob/main/Fill_out_survey.feature)
+Check your Cucumber-Test-Case here: [CLICK HERE](https://github.com/SimpleSurveyProject/SimpleSurvey-Cucumber/tree/main/test/features)
 
 ## Alternative Flows
 
