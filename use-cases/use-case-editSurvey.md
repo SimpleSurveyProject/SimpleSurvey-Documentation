@@ -6,7 +6,7 @@ A user edits a survey, which he has already created.
 
 ## Screenshot
 
-![share](ressources/edit.png)
+![share](/ressources/edit.png)
 
 # Flow of Events
 
