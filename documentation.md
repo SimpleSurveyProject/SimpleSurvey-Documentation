@@ -88,26 +88,26 @@ User evaluates survey [CLICK HERE](https://github.com/SimpleSurveyProject/Simple
 ### 2.3 Technology Stack
 The technology we use is:
 
-Backend:
--Spring Boot
--MySQL Database (MariaDB)
+Backend:  
+- Spring Boot  
+- MySQL Database (MariaDB)  
 
-Frontend:
--Angular
+Frontend:  
+- Angular  
 
-IDE:
--Microsoft Visual Studio Code
--Eclipse
+IDE:  
+- Microsoft Visual Studio Code  
+- Eclipse  
 
-Project Management:
--YouTrack
--GitHub
+Project Management:  
+- YouTrack  
+- GitHub  
 
-Deployment:
--Jenkins
+Deployment:  
+- Jenkins  
 
-Testing:
--Cucumber (Selenium)
+Testing:  
+- Cucumber (Selenium)  
 
 ## 3. Specific Requirements
 
