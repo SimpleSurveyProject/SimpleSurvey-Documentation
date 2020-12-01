@@ -1,36 +1,3 @@
-\&lt;Company Name\&gt;
-
-\&lt;Project Name\&gt;
-
-Software Architecture Document
-
-**Version \&lt;1.0\&gt;**
-
-_[Note: The following template is provided for use with the Rational Unified Process. Text enclosed in square brackets and displayed in blue italics (style=InfoBlue) is included to provide guidance to the author and should be deleted before publishing the document. A paragraph entered following this style will automatically be set to normal (style=Body Text).]_
-
-_[To customize automatic fields in Microsoft Word (which display a gray background when selected), select File\&gt;Properties and replace the Title, Subject and Company fields with the appropriate information for this document. After closing the dialog, automatic fields may be updated throughout the document by selecting Edit\&gt;Select All (or Ctrl-A) and pressing F9, or simply click on the field and press F9. This must be done separately for Headers and Footers. Alt-F9 will toggle between displaying the field names and the field contents. See Word help for more information on working with fields.]_
-
-**Revision History**
-
-| **Date** | **Version** | **Description** | **Author** |
-| --- | --- | --- | --- |
-| \&lt;dd/mmm/yy\&gt; | \&lt;x.x\&gt; | \&lt;details\&gt; | \&lt;name\&gt; |
-|
- |
- |
- |
- |
-|
- |
- |
- |
- |
-|
- |
- |
- |
- |
-
 **Table of Contents**
 
 1.Introduction 2
