@@ -6,7 +6,7 @@ A user creates a new survey with questions.
 
 ## Screenshot
 
-![share](ressources/create.png)
+![share](/create.png)
 
 # Flow of Events
 
