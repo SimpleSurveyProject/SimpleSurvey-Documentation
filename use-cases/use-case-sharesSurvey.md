@@ -6,7 +6,7 @@ A user shares a survey, which he has already created.
 
 ## Screenshot
 
-![share](ressources/share.png)
+![share](/ressources/share.png)
 
 # Flow of Events
 
