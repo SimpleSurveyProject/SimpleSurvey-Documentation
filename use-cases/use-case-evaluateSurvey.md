@@ -6,7 +6,7 @@ A user evaluates a survey, which he has been filled out.
 
 ## Screenshot
 
-![share](ressources/evaluate.png)
+![share](/ressources/evaluate.png)
 
 # Flow of Events
 
