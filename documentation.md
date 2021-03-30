@@ -240,5 +240,5 @@ We try to follow all standards and use modern techniques.
 For further questions you can contact us on all platforms.
 The Team Members are:
 - Patrick Braje
-- Dominik Seiler
+- (Dominik Seiler)
 - Simon Fischer
