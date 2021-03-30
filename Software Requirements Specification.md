@@ -24,7 +24,9 @@
 - [4. Supporting Information](#4-supporting-information)
 
 
+
 ## 1. Introduction
+
 ### 1.1 Purpose
 This Software Requirements Specification (SRS) describes all specifications for the application "SimpleSurvey". It includes an overview about this project and its vision, detailed information about the planned features and boundary conditions of the development process.
 
@@ -59,11 +61,15 @@ The following parts are planned:
 
 ### 1.5 Overview
 The following chapter provides an overview of this project with vision and Overall Use Case Diagram. The third chapter (Requirements Specification) delivers more details about the specific requirements in terms of functionality, usability and design parameters. Finally there is a chapter with supporting information.
-    
+
+
+
 ## 2. Overall Description
 SimpleSurvey becomes a web application. The app should also be able to be used without a login.
 Actors of this App can be guests, users, creators or administrators.
 Users can create surveys and share them with the world. They can evaluate the results and draw conclusions on the platform.
+
+
 
 ## 3. Specific Requirements
 ### 3.1 Functionality
@@ -78,21 +84,26 @@ This section will explain the different use cases, you could see in the Use Case
 Every logged in user is able to create new surveys, which he can also share and evaluate.
 [CLICK HERE](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-createSurvey.md)  
 
+
 #### 3.1.2 Fill out survey
 Every logged in user is able to fill out exisiting surveys of other users. He needs to enter the unique ID of the survey he wants to answer.
 [CLICK HERE](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-fillsOutSurvey.md)  
+
 
 #### 3.1.3 Edit survey
 The users are able to edit their own surveys.
 [CLICK HERE](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-editSurvey.md)  
 
+
 #### 3.1.4 Share Survey
 The users are able to generate links for others to instantly access an exisiting survey.
 [CLICK HERE](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-sharesSurvey.md)  
 
+
 #### 3.1.5 Evaluate Survey
 The user has a dashboard which allows him to not only see the answers of the survey, but also shows general information about the questions (most skipped question, overall participants...)
 [CLICK HERE](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-evaluateSurvey.md)  
+
 
 ### 3.2 Usability
 We plan on designing the user interface as intuitive and self-explanatory as possible to make the user feel as comfortable as possible using the app. Though an FAQ document will be available, it should not be necessary to use it.
@@ -179,11 +190,14 @@ Since it is a web application, it will run in any modern browser. The backend wi
 The frontend will communicate with the backend through the https protocol.
 
 ### 3.10 Licensing Requirements
+tbd
+
 ### 3.11 Legal, Copyright, and Other Notices
 Our logo is licensed to the SimpleSurvey Team and is only allowed to use for the application. Also, we do not take responsibilty for any incorrect data or errors in the application.
 
 ### 3.12 Applicable Standards
 We try to follow all standards and use modern techniques.
+
 
 
 ## 4. Supporting Information
