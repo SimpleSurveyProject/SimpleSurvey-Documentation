@@ -46,15 +46,15 @@ The following parts are planned:
 | UC          | Use Case                               |
 | n/a         | not applicable                         |
 | tbd         | to be determined                       |
-| UCD         | overall Use Case Diagram               |
+| UCD         | Use Case Diagram                       |
 | FAQ         | Frequently asked Questions             |
 
 ### 1.4 References
 | Title                                                              | Date       |
 | -------------------------------------------------------------------|:----------:|
-| [SimpleSurvey Blog](https://simplesurveyproject.wordpress.com)    | 13.10.2020 |
-| [GitHub](https://github.com/SimpleSurveyProject)               | 13.10.2020 |
-| [WebApp](https://simplesurvey.de)               | 13.10.2020 |
+| [SimpleSurvey Blog](https://simplesurveyproject.wordpress.com)     | 13.10.2020 |
+| [GitHub](https://github.com/SimpleSurveyProject)                   | 13.10.2020 |
+| [WebApp](https://simplesurvey.de)                                  | 13.10.2020 |
 
 
 ### 1.5 Overview
@@ -80,7 +80,7 @@ Every logged in user is able to create new surveys, which he can also share and 
 
 #### 3.1.2 Fill out survey
 Every logged in user is able to fill out exisiting surveys of other users. He needs to enter the unique ID of the survey he wants to answer.
- [CLICK HERE](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-fillsOutSurvey.md)  
+[CLICK HERE](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-fillsOutSurvey.md)  
 
 #### 3.1.3 Edit survey
 The users are able to edit their own surveys.
