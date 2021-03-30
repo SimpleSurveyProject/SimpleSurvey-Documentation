@@ -63,7 +63,7 @@ The following chapter provides an overview of this project with vision and Overa
 ## 2. Overall Description
 SimpleSurvey becomes a web application. The app should also be able to be used without a login.
 Actors of this App can be guests, users, creators or administrators.
-
+Users can create surveys and share them with the world. They can evaluate the results and draw conclusions on the platform.
 
 ## 3. Specific Requirements
 ### 3.1 Functionality
