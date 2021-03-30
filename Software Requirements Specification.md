@@ -64,6 +64,7 @@ The following chapter provides an overview of this project with vision and Overa
 SimpleSurvey becomes a web application. The app should also be able to be used without a login.
 Actors of this App can be guests, users, creators or administrators.
 
+
 ## 3. Specific Requirements
 ### 3.1 Functionality
 This section will explain the different use cases, you could see in the Use Case Diagram, and their functionality.  
@@ -183,6 +184,7 @@ Our logo is licensed to the SimpleSurvey Team and is only allowed to use for the
 
 ### 3.12 Applicable Standards
 We try to follow all standards and use modern techniques.
+
 
 ## 4. Supporting Information
 For further questions you can contact us on all platforms.
