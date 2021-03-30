@@ -18,7 +18,7 @@
 - [8. Implementation View](#8-implementation-view)
   * [8.1 Overview](#81-overview)
   * [8.2 Layers](#82-layers)
-- [9. Data View (optional)](#9-data-view--optional-)
+- [9. Data View](#9-data-view)
 - [10. Size and Performance](#10-size-and-performance)
 - [11. Quality](#11-quality)
 
@@ -66,7 +66,7 @@ This document contains the architectural representation, goals and constraints a
 - [6. Process View](#6-process-view)
 - [7. Deployment View](#7-deployment-view)
 - [8. Implementation View](#8-implementation-view)
-- [9. Data View (optional)](#9-data-view--optional-)
+- [9. Data View](#9-data-view)
 
 # 3. Architectural Goals and Constraints
 
@@ -117,7 +117,7 @@ n/a
 
 n/a
 
-# 9. Data View (optional)
+# 9. Data View
 
 ![dbmodel](ressources/dbmodel.png)
 
