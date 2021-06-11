@@ -95,7 +95,7 @@ The logical view for our application follows the Spring Boot architecture and co
 BLUE = MODEL  
 ORANGE = CONTROLLER
 
-![architecture](https://puu.sh/HO2IU/13bdb70dcf.png)
+![architecture](https://puu.sh/HO32X/997aef87b5.png)
 
 
 
