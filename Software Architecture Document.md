@@ -89,7 +89,7 @@ https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/tree/main/use-
 We are implementing according to the MVC pattern:
 The logical view for our application follows the Spring Boot architecture and contains the controller and the model. The frontend contains only the view and services which connect to the backend.
 ![mvc](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/ressources/MVC.png)
-In the red box we have applied the Builder pattern.
+
 
 ## 5.2 Architecturally Significant Design Packages
 
@@ -97,6 +97,8 @@ BLUE = MODEL
 ORANGE = CONTROLLER
 
 ![architecture](https://puu.sh/HO32X/997aef87b5.png)
+
+In the red box we have applied the Builder pattern.
 
 
 
