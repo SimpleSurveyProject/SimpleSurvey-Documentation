@@ -92,7 +92,7 @@ n/a
 n/a
 #### 5.2.4 User Interface Testing
 Tested with Selenium
-- [Angular Frontend Testing (Cucumber)](#5-2-2-angular-frontend-testing-\(Cucumber\))
+- [Angular Frontend Testing (Cucumber)](#5-2-2-angular-frontend-testing-Cucumber)
 #### 5.2.5 Performance Profiling 
 n/a
 #### 5.2.6 Load Testing
@@ -103,7 +103,7 @@ n/a
 n/a
 #### 5.2.9	Security and Access Control Testing
 Login tests with Java Unit tests
-- [Spring Boot Backend Testing (Unit)](#5-2-1-spring-boot-backend-testing-\(Unit\))
+- [Spring Boot Backend Testing (Unit)](#5-2-1-spring-boot-backend-testing-Unit)
 #### 5.2.10	Failover and Recovery Testing
 n/a
 #### 5.2.11	Configuration Testing
