@@ -92,7 +92,7 @@ n/a
 n/a
 #### 5.2.4 User Interface Testing
 Tested with Selenium
-- [Angular Frontend Testing (Cucumber)](#5-2-2-angular-frontend-testing)
+- [Angular Frontend Testing (Cucumber)](#5-2-2-angular-frontend-testing-\(Cucumber\))
 #### 5.2.5 Performance Profiling 
 n/a
 #### 5.2.6 Load Testing
@@ -103,7 +103,7 @@ n/a
 n/a
 #### 5.2.9	Security and Access Control Testing
 Login tests with Java Unit tests
-- [Spring Boot Backend Testing (Unit)](#5-2-1-spring-boot-backend-testing)
+- [Spring Boot Backend Testing (Unit)](#5-2-1-spring-boot-backend-testing-\(Unit\))
 #### 5.2.10	Failover and Recovery Testing
 n/a
 #### 5.2.11	Configuration Testing
@@ -169,16 +169,12 @@ n/a
 ### 10.1	People and Roles
 | Role | Minimum Resources Recommended (number of full-time roles allocated)      |Specific Responsibilities or Comments |
 | ----------- | -------------------------------------- |-----|
-| Test Manager | 1 | 
-Provides management oversight|
+| Test Manager | 1 | Provides management oversight|
 | Test Designer | 1 | Defines the technical approach to the implementation of the test effort.|
 |Tester|1|Implements and executes the tests. |
-|Test System Administrator|1|
-Ensures test environment and assets are managed and maintained.|
-|Database Administrator, Database Manager|1|
-Ensures test data (database) environment and assets are managed and maintained.|
-|Implementer|3|
-Implements and unit tests the test classes and test packages.|
+|Test System Administrator|1|Ensures test environment and assets are managed and maintained.|
+|Database Administrator, Database Manager|1|Ensures test data (database) environment and assets are managed and maintained.|
+|Implementer|3|Implements and unit tests the test classes and test packages.|
 ### 10.2	Staffing and Training Needs
 n/a
 ## 11.	Iteration Milestones
