@@ -37,24 +37,34 @@ This document describes the way we write code and how we connect the components 
 
 ## 1.3 Definitions, Acronyms, and Abbreviations
 
-| Abbrevation | Description                            |
+| Abbrevation | Explanation                            |
 | ----------- | -------------------------------------- |
+| MVC         | Model View Controller |
+| UC          | Use Case                               |
+| UCD         | Use Case Diagram                       |
 | n/a         | not applicable                         |
+| tbd         | to be determined                       |
+
 
 ## 1.4 References
 
-[Blog](https://simplesurveyproject.wordpress.com/)  
-[GitHub Repository](https://github.com/SimpleSurveyProject)  
-[MVC Diagram](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/ressources/MVC.png)  
-[Use Case Diagram](https://screen.simonlabs.de/img.php?id=2I0cisf)  
-[Fill out survey Use Case](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-fillsOutSurvey.md)  
-[Share survey Use Case](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-sharesSurvey.md)  
-[Create survey Use Case](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-createSurvey.md)  
-[Edit survey Use Case](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-editSurvey.md)  
-[Evaluate survey Use Case](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-evaluateSurvey.md)  
-[Architecture](ressources/architecture.png)  
-[Deployment](https://screen.simonlabs.de/img.php?id=2HVXfjn)  
-[Database model](ressources/dbmodel.png)  
+| Title                                                              |
+| -------------------------------------------------------------------|
+| [SimpleSurvey Blog](https://simplesurveyproject.wordpress.com)     |
+| [GitHub](https://github.com/SimpleSurveyProject)                   |
+| [WebApp](https://simplesurvey.de)                                  |
+| [SRS](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/Software%20Requirements%20Specification.md)|
+| [Test plan](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/Test%20plan.md) |
+| [MVC Diagram](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/ressources/MVC.png)  |
+| [Use Case Diagram](https://screen.simonlabs.de/img.php?id=2I0cisf)  |
+| [Fill out survey Use Case](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-fillsOutSurvey.md)  |
+| [Share survey Use Case](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-sharesSurvey.md)  |
+| [Create survey Use Case](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-createSurvey.md)  |
+| [Edit survey Use Case](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-editSurvey.md)  |
+| [Evaluate survey Use Case](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/use-cases/use-case-evaluateSurvey.md)  |
+| [Architecture](https://puu.sh/HO32X/997aef87b5.png)  |
+| [Deployment](https://screen.simonlabs.de/img.php?id=2HVXfjn)  |
+| [Database model](ressources/dbmodel.png)  |
 
 ## 1.5 Overview
 
