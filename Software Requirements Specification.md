@@ -48,7 +48,6 @@ The following parts are planned:
 | n/a         | not applicable                         |
 | tbd         | to be determined                       |
 | UCD         | Use Case Diagram                       |
-| FAQ         | Frequently asked Questions             |
 
 ### 1.4 References
 | Title                                                              |
