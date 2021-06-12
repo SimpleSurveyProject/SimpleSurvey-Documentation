@@ -43,7 +43,6 @@ The following parts are planned:
 ### 1.3 Definitions, Acronyms and Abbreviations
 | Abbrevation | Explanation                            |
 | ----------- | -------------------------------------- |
-| SRS         | Software Requirements Specification    |
 | UC          | Use Case                               |
 | n/a         | not applicable                         |
 | tbd         | to be determined                       |
