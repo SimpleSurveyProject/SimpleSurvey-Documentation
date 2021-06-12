@@ -13,7 +13,7 @@
   * [3.4 Performance](#34-performance)
   * [3.5 Supportability](#35-supportability)
   * [3.6 Design Constraints](#36-design-constraints)
-  * [3.7 Online User Documentation and Help System Requirements](#37-on-line-user-documentation-and-help-system-requirements)
+  * [3.7 Online User Documentation and Help System Requirements](#37-online-user-documentation-and-help-system-requirements)
   * [3.8 Purchased Components](#38-purchased-components)
   * [3.9 Interfaces](#39-interfaces)
   * [3.10 Licensing Requirements](#310-licensing-requirements)
@@ -35,6 +35,7 @@ The following parts are planned:
 * Survey-System
 	* create
 	* edit
+	* delete
 	* share
 	* fill out
 	* evaluate
@@ -50,11 +51,13 @@ The following parts are planned:
 | FAQ         | Frequently asked Questions             |
 
 ### 1.4 References
-| Title                                                              | Date       |
-| -------------------------------------------------------------------|:----------:|
-| [SimpleSurvey Blog](https://simplesurveyproject.wordpress.com)     | 13.10.2020 |
-| [GitHub](https://github.com/SimpleSurveyProject)                   | 13.10.2020 |
-| [WebApp](https://simplesurvey.de)                                  | 13.10.2020 |
+| Title                                                              |
+| -------------------------------------------------------------------|
+| [SimpleSurvey Blog](https://simplesurveyproject.wordpress.com)     |
+| [GitHub](https://github.com/SimpleSurveyProject)                   |
+| [WebApp](https://simplesurvey.de)                                  |
+| [SAD](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/Software%20Architecture%20Document.md)|
+| [Test plan](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/Test%20plan.md) |
 
 
 ### 1.5 Overview
@@ -63,9 +66,8 @@ The following chapter provides an overview of this project with vision and Overa
 
 
 ## 2. Overall Description
-SimpleSurvey becomes a web application. The app should also be able to be used without a login.
-Actors of this App can be guests, users, creators or administrators.
-Users can create surveys and share them with the world. They can evaluate the results and draw conclusions on the platform.
+SimpleSurvey is a web application.
+Users can create, edit and delete surveys and share them with the world. They can evaluate the results and draw conclusions on the platform.
 
 
 
@@ -104,7 +106,7 @@ The user has a dashboard which allows him to not only see the answers of the sur
 
 
 ### 3.2 Usability
-We plan on designing the user interface as intuitive and self-explanatory as possible to make the user feel as comfortable as possible using the app. Though an FAQ document will be available, it should not be necessary to use it.
+We plan on designing the user interface as intuitive and self-explanatory as possible to make the user feel as comfortable as possible using the app.
 
 #### 3.2.1 No training time needed
 Our goal is that a user opens the Web-Application and is able to use all features without any explanation or help.
@@ -114,7 +116,7 @@ We want to implement a Web-Application with familiar designs and functions. This
 
 ### 3.3 Reliability
 #### 3.3.1 Availability
-The server shall be available 95% of the time. This also means we have to figure out the "rush hours" of our application because the downtime of the server is only tolerable when as few as possible Users want to use the application.
+The server shall be available 99% of the time. This also means we have to figure out the "rush hours" of our application because the downtime of the server is only tolerable when as few as possible Users want to use the application.
 
 #### 3.3.2 Defect Rate
 Our goal is that we have no loss of any data. This is important so that the application can carry on, even after a downtime of the server.
@@ -134,7 +136,9 @@ To provide the best  performance we aim to keep the response time as low as poss
 We are going to write the code by using all of the most common clean code standards. For example we will name our variables and methods by their functionalities. This will keep the code easy to read by everyone and make further development much easier.
 
 #### 3.5.2 Testing Strategy
-The application will have a high test coverage and all important functionalities and edge cases should be tested. Further mistakes in the implementation will be discovered instantly and it will be easy to locate the error.
+All important functionalities and edge cases should be tested. Further mistakes in the implementation will be discovered instantly and it will be easy to locate the error.
+Read more in our test plan document:
+[Test plan](https://github.com/SimpleSurveyProject/SimpleSurvey-Documentation/blob/main/Test%20plan.md) 
 
 ### 3.6 Design Constraints
 The technology we use is:
@@ -158,28 +162,30 @@ Deployment:
 * Jenkins  
 
 Testing:  
-* Cucumber (Selenium)  
+* Cucumber (Selenium)
+* JUnit
+* Swagger UI  
 
 
 We are trying to provide a modern and easy to handle design for the UI as well as for the architecture of our application. To achieve that the functionalities will be kept as modular as possible.
 
-Because we are programming a Web-Application we chose JavaScript  as our programming language. Also we are using the common MVC-architecture to keep the front end and back end separated. For a clean front end structure we use MVC.
+Because we are programming a Web-Application we chose JavaScript as our programming language. Also we are using the common MVC-architecture to keep the front end and back end separated. For a clean front end structure we use MVC.
 To make the communication between the two parts easy, we will implement a RESTful-API between them which will provide the data in JSON-Format.
 The supported Platforms will be:
 * all modern Browsers
 
-### 3.7 On-line User Documentation and Help System Requirements
-The usage of the application should be as intuitive as possible so it won't need any further documentation. If the user needs some help we will implement a "Help"-Button which includes a FAQ and a formular to contact the development team.
+### 3.7 Online User Documentation and Help System Requirements
+The usage of the application should be as intuitive as possible so it won't need any further documentation. We plan to provide an support email address.
 
 ### 3.8 Purchased Components
 We have bought a domain for the web application and a Linux Server, where the applications run.
 
 ### 3.9 Interfaces
 #### 3.9.1 User Interfaces
-tbd
+The user interface is the webportal.
 
 #### 3.9.2 Hardware Interfaces
-We use a Linux server in a data center.
+We use a Linux server. We plan to move it to a big datacenter soon.
 
 #### 3.9.3 Software Interfaces
 Since it is a web application, it will run in any modern browser. The backend will be installed on a Linux server.
@@ -188,15 +194,13 @@ Since it is a web application, it will run in any modern browser. The backend wi
 The frontend will communicate with the backend through the https protocol.
 
 ### 3.10 Licensing Requirements
-tbd
+n/a
 
 ### 3.11 Legal, Copyright, and Other Notices
 Our logo is licensed to the SimpleSurvey Team and is only allowed to use for the application. Also, we do not take responsibilty for any incorrect data or errors in the application.
 
 ### 3.12 Applicable Standards
 We try to follow all standards and use modern techniques.
-
-
 
 ## 4. Supporting Information
 For further questions you can contact us on all platforms.
