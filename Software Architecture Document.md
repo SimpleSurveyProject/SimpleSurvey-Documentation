@@ -72,11 +72,11 @@ This document contains the architectural representation, goals and constraints a
 
 # 2. Architectural Representation
 
-- [5. Logical View](#5-logical-view)
-- [6. Process View](#6-process-view)
-- [7. Deployment View](#7-deployment-view)
-- [8. Implementation View](#8-implementation-view)
-- [9. Data View](#9-data-view)
+- [Logical View](#5-logical-view)
+- [Process View](#6-process-view)
+- [Deployment View](#7-deployment-view)
+- [Implementation View](#8-implementation-view)
+- [Data View](#9-data-view)
 
 # 3. Architectural Goals and Constraints
 
